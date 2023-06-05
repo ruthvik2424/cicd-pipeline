@@ -12,7 +12,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: ssh://git@github.com/ruthvik2424/demorepo.git
+    repoURL: ssh://git@github.com/ruthvik2424/cicd-pipeline.git
     targetRevision: main
     path: dev
   destination:
