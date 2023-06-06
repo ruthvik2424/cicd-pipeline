@@ -12,7 +12,7 @@ spec:
   source:
     repoURL: https://github.com/ruthvik2424/cicd-pipeline.git
     targetRevision: HEAD
-    path: ./image-updater/example-app/envs/qa/
+    path: ./image-updater/my-app/base/
    
   destination:
     server: https://kubernetes.default.svc
