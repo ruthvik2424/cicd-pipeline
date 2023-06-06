@@ -4,7 +4,7 @@ metadata:
   name: always-latest01
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: ruthvik2424/demoproject
+    argocd-image-updater.argoproj.io/image-list: ruthvik2424/demoproject:~1
     argocd-image-updater.argoproj.io/example.update-strategy: latest
 spec:
   project: default
