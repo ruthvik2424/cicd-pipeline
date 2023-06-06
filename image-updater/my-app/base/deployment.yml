@@ -18,6 +18,6 @@ spec:
       containers:
       - name: test-app
         imagePullPolicy: Always
-        image: docker.io/ruthvik2424/demoproject:1.2.0
+        image: docker.io/ruthvik2424/demoproject:1.4.0
         ports:
         - containerPort: 5000
