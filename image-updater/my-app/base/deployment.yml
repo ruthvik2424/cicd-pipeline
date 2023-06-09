@@ -18,6 +18,6 @@ spec:
       containers:
       - name: test-app
         imagePullPolicy: Always
-        image: docker.io/ruthvik2424/demoproject:1.4.0
+        image: quay.io/miniprojects/saysmooth:1.3.0
         ports:
         - containerPort: 5000
